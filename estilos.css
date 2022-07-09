@@ -57,15 +57,16 @@ body{
     border: none;
     border-radius: 10px;
     border-bottom: none;
+    align-items: center;
 
 }
 
 .check{
-    align-items: center;
     display: flex;
+    align-items: center;
     padding: 10px 0;
-    flex-wrap: wrap;
-    width: 100px;
+    width: 110px;
+    flex-direction: column;
 }
 
 .check input{
