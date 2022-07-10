@@ -106,7 +106,9 @@ body{
     margin-right: 20px;
     font-weight: 500;
     transition: 0.3s;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -142,10 +144,12 @@ ul{
 
 .auto__tabla{
     position: relative;
-    bottom: 9px;
+    bottom: 6px;
     left: 25px;
-    border-collapse: collapse;
+    border-collapse: separate;
     width: 400px;
+
+    
 }
 
 .tabla__destacado{
@@ -156,6 +160,13 @@ ul{
     font-size: 15px;
 }
 
+.tabla__destacado.usd p{
+    font-weight: 300;
+}
+
+.tabla__destacado.usd b{
+    font-size: 18px;
+}
 ul .lista{
     margin-right: 50px;
 }
@@ -206,15 +217,14 @@ td{
 }
 
 header h4{
-    padding-left: 30px;
+    padding-left: 50px;
 }
 
 .contenedor label{
     position: absolute;
     top: 23px;
     right: 25px;
-    color: black;
-    font-size: 10px;
+    font-size: 15px;
     cursor: pointer;
 }
 
@@ -228,15 +238,45 @@ header h4{
 } 
 .ul__modal{
     padding-left: 50px;
-    
     vertical-align: middle;
+    font-weight: 400;
+}
+
+.contenido{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
 }
 .subtitulo__modal{
     color: rgba(203, 203, 203, 0.976);
     letter-spacing: 2px;
-    padding-left: 30px;
+    padding-left: 50px;
 }
 .lista__modal{
     list-style: url(/assets/images/lista.png);
-    vertical-align: middle;
+    align-items: center;
+}
+
+.lista1{
+    list-style-image: url(/assets/images/seats.svg);
+}
+
+.lista2{
+    list-style-image: url(/assets/images/luggage.svg);
+}
+
+.lista3{
+    list-style-image: url(/assets/images/bag.svg);
+}
+
+.lista4{
+    list-style-image: url(/assets/images/door.svg);
+}
+
+.lista5{
+    list-style-image: url(/assets/images/transmision.svg);
+}
+
+.lista6{
+    list-style-image: url(/assets/images/air-conditioning.svg);
 }
